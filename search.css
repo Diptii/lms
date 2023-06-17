@@ -1,0 +1,46 @@
+body {
+    /* background-color: #76a9e0; */
+    background-image: url("./image/bg2.png");
+    background-color: black;
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  #loading{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #fff 
+    url('pre.gif') no-repeat center;
+    z-index: 100;
+}
+  .center {
+    margin: auto;
+    margin-top: 200px;
+  }
+  
+  #header {
+    font-family: 'Righteous', sans-serif;
+    font-size: 3rem;
+  }
+  h1{
+    color: white;
+  }
+  h2 {
+    font-family: 'Righteous', sans-serif;
+    color: white;
+  }
+  
+  .book-list {
+    margin-top: 50px;
+    visibility: hidden;
+  }
+  #search{
+    color: #fff;
+    background-color: #e86c1f;
+    border: none;
+  }
+  
